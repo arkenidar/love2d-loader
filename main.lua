@@ -39,5 +39,7 @@ function love.keypressed(key, u)
     
   end
 end --]]
-dofile("location.lua")
+
+---dofile("location.lua")
+love.filesystem.load("location.lua")()
 ------------

@@ -20,4 +20,6 @@ end
 
 next="script2.lua"
 -------------
-dofile("location.lua")
+
+---dofile("location.lua")
+love.filesystem.load("location.lua")()
